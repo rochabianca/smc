@@ -1,0 +1,163 @@
+.intro-planos {
+  width: 100%;
+  height: 500px;
+  background: url("../img/slide/comparativo.jpg") no-repeat;
+  background-size: cover;
+  margin-top: 95px;
+  text-align: center;
+  padding-top: 220px;
+  margin-bottom: 60px;
+}
+
+.quebra-planos {
+  width: 100%;
+  height: 500px;
+  background: url("../img/planos/contato.jpg") no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+  text-align: center;
+  padding-top: 220px;
+  margin-bottom: 60px;
+}
+
+.popularidade-img img {
+  width: 100%;
+
+}
+
+.fonte-media {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.center {
+  text-align: center;
+}
+
+.caixa {
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.menor {
+  text-align: center;
+}
+
+.container-titulo {
+  max-width: 200px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-texto {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container-texto p {
+  margin-bottom: 20px;
+}
+
+.espacado {
+  margin-bottom: 20px;
+}
+
+.espacado-top {
+  margin-top: 30px;
+}
+
+.chama-comparativo {
+  text-align: center;
+  width: 100%;
+}
+
+.chama-comparativo p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+
+.plano {
+  margin-top: 140px;
+  margin-bottom: 60px;
+}
+
+.comeco-lista {
+  font-weight: bold;
+  font-size: 18px;
+
+}
+
+.plano h2 {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.plano img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.plano p {
+  text-align: left;
+}
+
+.intro-plano {
+  max-width: 630px;
+  margin: 0 auto;
+  padding-left: 2%;
+  margin-bottom: 60px;
+}
+
+.botoes {
+  max-width: 630px;
+  margin: 0 auto;
+  padding-left: 15%;
+}
+
+.lista-vantagens {
+  max-width: 750px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-left: 3%;
+}
+
+.lista-vantagens h3 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/*Modal Contrato*/
+
+.contrato {
+  overflow:scroll;
+  width:100%;
+  height:200px;
+}
+
+.modalidades {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-left: 22%;
+}
+
+.um-item {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.modalidades a {
+  margin-right: 10px;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  color: #343a45;
+  border-color: #343a45;
+}
+
+

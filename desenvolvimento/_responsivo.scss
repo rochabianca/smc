@@ -1,0 +1,380 @@
+/*Estilo para tablets*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+  // .header {
+  // position: absolute;
+  // }
+
+  // .logo {
+  // position: absolute;
+  // }
+
+  .rodape {
+  height: 730px;
+  }
+  .responsivo-tablet {
+  padding: 0px;
+  position: relative;
+  }
+  .responsivo-tablet:after, .responsivo-tablet:before {
+  content: " ";
+  display: table;
+  }
+
+  .responsivo-tablet:after {
+  clear: both;
+  }
+
+  .responsivo-tablet:nth-child(2) {
+  margin-top: 60px;
+  }
+
+  .contato {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+
+  .coluna-1 {
+  margin-left: 5%;
+  }
+
+  .coluna-2 {
+    margin-left: 24%;
+  }
+
+  .modal > div {
+  width: 90%;
+  }
+
+  .fechar {
+  right: 39px;
+  top: 14px;
+  }
+
+  /*Menu*/
+  .mobile-btn {
+  display: block;
+  color: #000;
+  width: 36px;
+  height: 36px;
+  border-top: 4px solid;
+  margin: 20px 20px 0 0;
+  float: right;
+  position: relative;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  }
+
+  .mobile-btn::after, .mobile-btn::before {
+  content: '';
+  display: block;
+  height: 4px;
+  margin-top: 6px;
+  background: currentColor;
+  position: relative;
+  transition: transform .2s ease;
+  }
+
+  .mobile-btn.active {
+  border-top-color: transparent;
+  }
+
+  .mobile-btn.active::after {
+  margin-top: 0px;
+  top: 2px;
+  transform: rotate(45deg);
+  }
+
+  .mobile-btn.active::before {
+  margin-top: 0px;
+  top: 6px;
+  transform: rotate(135deg);
+  }
+
+  .menu-nav.mobile-menu {
+  position: fixed;
+  background: #fff;
+  padding: 10px;
+  top: 100px;
+  right: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(60px, 0px, 0px);
+  transition: .3s;
+  }
+
+  .menu-nav.mobile-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0px, 0px, 0px);
+  }
+
+  .menu-nav.mobile-menu li {
+  display: block;
+  }
+
+  .menu-nav.mobile-menu li a {
+  /*border-top: 2px solid;*/
+  width: 100%;
+  text-align: center;
+  }
+
+  .menu nav li a::after {
+  content: '';
+  display: block;
+  background: #fff;
+  height: 2px;
+  width: 0;
+  transition: .3s;
+  }
+
+  /*Clube de Vantagens*/
+
+.img-parceiro {
+  max-width: 100%;
+  margin-left: 10%;
+  display: inline-flex;
+  margin-left: 10%;
+}
+
+
+  /*Promoções e Ações*/
+  .destaques div {
+    margin-left: 9%;
+  }
+
+  .ajusta {
+    margin-left: 25%;
+  }
+
+  .promo {
+    margin-bottom: 60px;
+  }
+
+  .promo img {
+  //margin-left: 10%;
+}
+
+  .quebra-promocao {
+    width: 100%;
+    height: 560px;
+    background: url("../img/promocoes/2-responsivo.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 220px;
+    margin-bottom: 60px;
+  }
+
+   /*Comparativo*/
+  .table-responsive {
+    overflow-x:auto;
+  }
+
+}
+
+/*Estilo para Smartphone*/
+@media only screen and (max-width: 768px) {
+  // .header {
+  // position: absolute;
+  // }
+
+  // .logo {
+  // position: absolute;
+  // }
+
+
+  .coluna-1 {
+  width: 300px;
+  }
+
+  .coluna-2 {
+  margin-left: 15%;
+  }
+  .mobile-btn {
+  display: block;
+  color: #000;
+  width: 36px;
+  height: 36px;
+  border-top: 4px solid;
+  margin: 20px 20px 0 0;
+  float: right;
+  position: relative;
+  cursor: pointer;
+  -webkit-backface-visibility: hidden;
+  }
+
+  .responsivo-tablet {
+  margin-left: 10px;
+  }
+
+  .rodape {
+  height: 1430px;
+  }
+
+  .contato {
+  margin-top: 60px;
+  }
+
+  .conteudo-rodape {
+  margin-left: 10px;
+  }
+  .mobile-btn::after, .mobile-btn::before {
+  content: '';
+  display: block;
+  height: 4px;
+  margin-top: 6px;
+  background: currentColor;
+  position: relative;
+  transition: transform .2s ease;
+  }
+
+  .mobile-btn.active {
+  border-top-color: transparent;
+  }
+
+  .mobile-btn.active::after {
+  margin-top: 0px;
+  top: 2px;
+  transform: rotate(45deg);
+  }
+
+  .mobile-btn.active::before {
+  margin-top: 0px;
+  top: 6px;
+  transform: rotate(135deg);
+  }
+
+  .menu-nav.mobile-menu {
+  position: fixed;
+  background: #fff;
+  padding: 10px;
+  top: 100px;
+  right: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transform: translate3d(60px, 0px, 0px);
+  transition: .3s;
+  }
+
+  .menu-nav.mobile-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translate3d(0px, 0px, 0px);
+  }
+
+  .menu-nav.mobile-menu li {
+  display: block;
+  }
+
+  .menu-nav.mobile-menu li a {
+  /*border-top: 2px solid;*/
+  width: 100%;
+  text-align: center;
+  }
+
+  .menu nav li a::after {
+  content: '';
+  display: block;
+  background: #fff;
+  height: 2px;
+  width: 0;
+  transition: .3s;
+  }
+
+  .noticias p {
+  margin-left: 0px;
+  }
+  .noticias a {
+  margin-left: 20%;
+  text-align: center;
+  }
+
+  .modal > div {
+  max-height: calc(100vh - 40px);
+  width: 95%;
+  }
+
+  .fechar {
+  right: 0px;
+  top: 0px;
+  }
+
+  /*CLube de Vantagens*/
+  .borda-1 {
+    padding: 1px;
+  }
+
+  // .img-parceiro img {
+  //   width: 90%;
+  //   display: block;
+  //   margin: 10px;
+  // }
+
+  .img-parceiro {
+  max-width: 100%;
+  margin-left: 10%;
+  display: block;
+  margin-left: 10%;
+}
+
+  /*Promoções e Ações*/
+
+  .promo img {
+  margin-left: 0px;
+}
+
+  .destaques {
+    margin-left: 10%;
+  }
+
+  .destaques div {
+    margin-left: 0px;
+  }
+
+  .info p {
+    padding-right: 0px;
+    padding-left: 10px;
+  }
+
+  .ajusta {
+    margin-left: 10%;
+    padding-right: 0px;
+    padding-left: 0px;
+
+  }
+
+  .promo {
+    margin-bottom: 60px;
+  }
+
+  .promo a {
+    margin-left: 23%;
+  }
+
+  .quebra-promocao {
+    width: 100%;
+    height: 560px;
+    background: url("../img/promocoes/2-responsivo-2.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 220px;
+    margin-bottom: 60px;
+  }
+
+  /*Planos*/
+  .frase-foto {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .botao-responsive {
+    margin-bottom: 30px;
+  }
+
+
+  /*Comparativo*/
+  .table-responsive {
+    overflow-x:auto;
+  }
+
+}
+
